@@ -1,0 +1,38 @@
+.contain{
+    height: 65vh;
+    width: 70vh;
+   position: relative;
+    margin-top: 2.4rem;
+    margin-left:15rem ;
+    margin-bottom: 20px;
+}
+.faq{
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+}
+.other{
+    display: flex;
+    height: 51vh;
+    width: 42vh;
+    flex-direction: column;
+    background-color: rgb(234, 219, 167);
+    border-radius: 0.4rem;
+}
+.q1,.q2,.q3,.q4,.q5{
+ display: flex;
+ border: 0.1rem solid;
+ border-radius: 0.3rem;
+ height: 2.3rem;
+ width: 28rem;
+ font-size: 20px;
+ word-spacing: 0.4rem;
+ margin-left: 2rem;
+ margin-top: 2.5rem;
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.follow{
+     text-align: center;
+    background-color: rgb(255, 165, 0);
+}
+ 
